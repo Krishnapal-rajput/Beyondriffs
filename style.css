@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  height: 100vh;
+  background: #070109;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #fff;
+}
