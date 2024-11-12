@@ -1,0 +1,138 @@
+.mainHeader {
+  background-image: url(../images/bg-01.jpg);
+  background-size: cover; /* Ensures the image covers the entire area */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents image from repeating */
+  width: 100%; /* Ensures the width is full screen */
+  height: 100vh; /* Ensures the height is full screen (viewport height) */
+}
+.headerContainer {
+  padding-inline: 64px;
+  padding-block: 32px;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 72px;
+}
+
+.linksContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.linksContainer div {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.linksContainer div:hover {
+  color: rgb(125, 25, 180); /* Optional: Change color on hover */
+  /* font-weight: bold; */
+}
+
+.caret {
+  display: inline-block;
+  transform: rotate(180deg); /* Rotate the caret */
+  margin-left: 8px; /* Adds some space between text and caret */
+  font-size: 20px; /* Adjust this size to match the text */
+  line-height: 0; /* Ensures caret stays centered vertically */
+  vertical-align: middle; /* Vertically align the caret with the text */
+}
+.loginContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+.loginContainer .trial {
+  height: 64px;
+  width: 200px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, rgb(50, 5, 75), rgb(125, 25, 180));
+  border-radius: 20px;
+}
+.login {
+  width: 100px;
+  height: 64px;
+  border: 2px solid transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.login:hover {
+  border: 2px solid rgb(125, 25, 180);
+  cursor: pointer;
+}
+.headingAndPopUps {
+  padding-top: 96px;
+  display: flex;
+  align-items: center;
+}
+
+.heading {
+  width: 50%;
+}
+.popups {
+  width: 50%;
+  display: none;
+}
+h1 {
+  font-size: 72px;
+}
+.musical {
+  background: linear-gradient(to bottom, rgb(125, 25, 180), rgb(255, 255, 255));
+  -webkit-background-clip: text; /* For Webkit browsers like Chrome, Safari */
+  background-clip: text; /* For other browsers */
+  color: transparent; /* Makes the text transparent so the gradient is visible */
+}
+p {
+  color: #fff;
+  font-size: 24px;
+  margin-top: 24px;
+}
+button {
+  margin-top: 24px;
+  margin-right: 32px;
+  height: 64px;
+  width: 33%;
+  font-family: inherit;
+  color: inherit;
+  background: none;
+  border-radius: 20px;
+  /* font-weight: bold; */
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+}
+.btn1 {
+  background: linear-gradient(to right, rgb(50, 5, 75), rgb(125, 25, 180));
+}
+.btn2 {
+  border: 2px solid rgb(125, 25, 180);
+}
+a {
+  text-decoration-line: none;
+  color: inherit;
+  font-family: inherit;
+}
+.trial:hover,
+.btn1:hover {
+  background: none;
+  border: 2px solid rgb(125, 25, 180);
+  cursor: pointer;
+}
+.btn2:hover {
+  border: none;
+  background: linear-gradient(to right, rgb(50, 5, 75), rgb(125, 25, 180));
+  cursor: pointer;
+}
