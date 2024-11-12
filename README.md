@@ -1,3 +1,3 @@
 # Beyondriffs
 
-Check the site here (https://beyondriffs-frontend.netlify.app/)
+Check the live version of this website here (https://beyondriffs-frontend.netlify.app/)
