@@ -1,0 +1,42 @@
+.section1 {
+  background: linear-gradient(
+    to bottom,
+    rgb(7, 1, 9),
+    rgb(31, 8, 43),
+    rgb(11, 1, 13)
+  );
+}
+.section1container {
+  padding-inline: 64px;
+  padding-block: 32px;
+}
+.section1container h2 {
+  text-align: center;
+}
+.featurescontainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+  padding-block: 64px;
+}
+.avatarimg img {
+  border-radius: 50%;
+}
+.avatar1,
+.avatar2,
+.avatar3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+.avatartext h4 {
+  font-weight: normal;
+  font-size: 24px;
+}
+.avatartext p {
+  font-weight: normal;
+  font-size: 16px;
+  color: #c2b4d0;
+}

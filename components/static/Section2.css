@@ -1,0 +1,44 @@
+.section2 {
+  padding-inline: 64px;
+  padding-block: 64px;
+}
+
+.section2-boldtext {
+  font-weight: bold;
+  font-size: 76px;
+}
+.section2content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+.section2rightcontent h2{
+    font-size: 64px;
+}
+.section2text {
+  color: #c2b4d0;
+  font-size: 28px;
+}
+.section2btn {
+  width: 300px;
+  height: 64px;
+  background: linear-gradient(to right, rgb(30, 26, 31), rgb(58, 46, 63));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+.section2caret {
+  display: inline-block;
+  transform: rotate(90deg);
+  margin-left: 20px;
+  font-size: 24px;
+  line-height: 0;
+}
+.section2btn:hover {
+  /* background: linear-gradient(to left, rgb(30, 26, 31), rgb(58, 46, 63)); */
+  a {
+    text-decoration-line: underline;
+  }
+}

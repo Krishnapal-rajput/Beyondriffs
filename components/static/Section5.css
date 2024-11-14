@@ -1,0 +1,19 @@
+.section5{
+    background: linear-gradient(to bottom, rgb(11, 1, 13), rgb(32, 8, 45), rgb(11, 1, 13));
+}
+.section5content{
+    padding-block: 120px;
+    padding-inline: 64px;
+}
+
+.achievements{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 64px;
+    margin-inline: 120px;
+}
+.marks h4{
+    text-align: center;
+    font-size: 40px;
+}

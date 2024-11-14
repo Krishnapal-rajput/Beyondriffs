@@ -1,0 +1,77 @@
+.section3 {
+  background: linear-gradient(
+    to bottom,
+    rgb(7, 1, 9),
+    rgb(31, 8, 43),
+    rgb(11, 1, 13)
+  );
+}
+.section3container {
+  padding-inline: 64px;
+  padding-block: 64px;
+  display: flex;
+  /* align-items: center; */
+  align-items: flex-start;
+  justify-content: space-evenly;
+  gap: 48px;
+  /* vertical-align: middle; */
+  /* background: linear-gradient(to margin-bottom, rgb(7, 1, 9), rgb(125, 25, 180)); */
+}
+.small {
+  font-size: 16px;
+  text-align: center;
+}
+.stepsheading {
+  font-size: 24px;
+  text-align: center;
+}
+.num1,
+.num2,
+.num3 {
+  height: 85px;
+  width: 85px;
+  background: linear-gradient(to right, rgb(17, 3, 24), rgb(19, 4, 25));
+  box-shadow: -4px -4px 2px 2px rgb(125, 25, 180);
+  border: 1px solid rgb(125, 25, 180);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 32px;
+  /* vertical-align: middle; */
+  /* text-align: center; */
+  /* margin-block: 32px;
+    margin-left: 60px; */
+}
+.num1 {
+  margin-left: 54px;
+}
+.num2 {
+  margin-left: 54px;
+}
+.num3 {
+  margin-left: 76px;
+}
+.number {
+  font-size: 40px;
+}
+.section3leftsection h3 {
+  font-size: 60px;
+}
+.section3leftsection h3,
+.section3leftsection p {
+  text-align: center;
+}
+.section3rightsection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* align-items: flex-start;  */
+  gap: 40px;
+}
+.steps {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
