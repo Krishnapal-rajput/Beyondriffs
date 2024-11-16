@@ -1,0 +1,26 @@
+.section6container {
+    margin: 64px;
+  }
+  
+  .benefits {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 equal columns */
+    gap: 60px; /* Add space between columns if necessary */
+  }
+  
+  .benefit {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center image and text horizontally */
+    justify-content: center; /* Center content vertically */
+    text-align: center; /* Center text below the image */
+  }
+  
+  .benefit img {
+    max-width: 100%; /* Ensure the images are responsive and fit within the container */
+    /* height: auto; Maintain image aspect ratio */
+  }
+  .benefit p{
+    text-align: center;
+    /* font-size: 24px; */
+  }

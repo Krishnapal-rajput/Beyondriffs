@@ -1,0 +1,37 @@
+.section8container {
+  margin: 64px;
+}
+.section8container h2 {
+  text-align: center;
+}
+.faqs {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+  margin-block: 64px;
+}
+.faq {
+  border: 1px solid rgb(125, 25, 180);
+  border-radius: 20px;
+  padding-block: 24px;
+  padding-inline: 16px;
+  cursor: pointer;
+}
+.faq a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.caretbg {
+  padding: 24px 16px;
+  background: linear-gradient(to bottom, rgb(50, 5, 75), rgb(125, 25, 180));
+  border-radius: 10px;
+  display: inline-block;
+}
+.caretbg span {
+  font-size: 24px;
+  font-weight: bold;
+}
+.faq:hover .faqText {
+  text-decoration-line: underline;
+}
