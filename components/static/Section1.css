@@ -1,42 +1,57 @@
+/* Section 1 background with a linear gradient */
 .section1 {
   background: linear-gradient(
-    to bottom,
-    rgb(7, 1, 9),
-    rgb(31, 8, 43),
-    rgb(11, 1, 13)
+    to bottom, /* Gradient direction (top to bottom) */
+    rgb(7, 1, 9), /* Start color (dark) */
+    rgb(31, 8, 43), /* Mid color (purple) */
+    rgb(11, 1, 13) /* End color (dark red) */
   );
 }
+
+/* Container inside section 1 with padding */
 .section1container {
-  padding-inline: 64px;
-  padding-block: 32px;
+  padding-inline: 64px; /* Horizontal padding */
+  padding-block: 32px; /* Vertical padding */
 }
+
+/* Header styling inside section 1 */
 .section1container h2 {
-  text-align: center;
+  text-align: center; /* Center the header text */
 }
+
+/* Container for features with flexbox layout */
 .featurescontainer {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 32px;
-  padding-block: 64px;
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Vertically center items */
+  justify-content: space-between; /* Space out items evenly */
+  gap: 32px; /* Space between feature items */
+  padding-block: 64px; /* Vertical padding for spacing */
 }
+
+/* Avatar image styling (rounded image) */
 .avatarimg img {
-  border-radius: 50%;
+  border-radius: 50%; /* Makes the image circular */
 }
+
+/* Avatar container layout with flexbox */
 .avatar1,
 .avatar2,
 .avatar3 {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 12px;
+  display: flex; /* Flex layout */
+  align-items: center; /* Vertically center the content */
+  justify-content: space-between; /* Space items evenly */
+  gap: 12px; /* Space between avatar and text */
 }
+
+/* Avatar text container, styling for the name */
 .avatartext h4 {
-  font-weight: normal;
-  font-size: 24px;
+  font-weight: normal; /* Normal font weight */
+  font-size: 24px; /* Font size for the name */
 }
+
+/* Avatar text container, styling for description */
 .avatartext p {
-  font-weight: normal;
-  font-size: 16px;
-  color: #c2b4d0;
+  font-weight: normal; /* Normal font weight */
+  font-size: 16px; /* Smaller font size for the description */
+  color: #c2b4d0; /* Light purple text color */
 }
