@@ -1,44 +1,60 @@
+/* Section 2 with padding around the content */
 .section2 {
-  padding-inline: 64px;
-  padding-block: 64px;
+  padding-inline: 64px; /* Horizontal padding */
+  padding-block: 64px; /* Vertical padding */
 }
 
+/* Bold text styling for section 2 */
 .section2-boldtext {
-  font-weight: bold;
-  font-size: 76px;
+  font-weight: bold; /* Makes the text bold */
+  font-size: 76px; /* Large font size for emphasis */
 }
+
+/* Content layout for section 2 with flexbox */
 .section2content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 40px;
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Distribute items evenly */
+  align-items: center; /* Vertically center the items */
+  gap: 40px; /* Space between content items */
 }
-.section2rightcontent h2{
-    font-size: 64px;
+
+/* Right content inside section 2 with large font size */
+.section2rightcontent h2 {
+  font-size: 64px; /* Large font size for the heading */
 }
+
+/* Text in section 2 with a light purple color */
 .section2text {
-  color: #c2b4d0;
-  font-size: 28px;
+  color: #c2b4d0; /* Light purple text color */
+  font-size: 28px; /* Medium font size */
 }
+
+/* Button in section 2 with gradient background and flexbox layout */
 .section2btn {
-  width: 300px;
-  height: 64px;
-  background: linear-gradient(to right, rgb(30, 26, 31), rgb(58, 46, 63));
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 40px;
+  width: 300px; /* Fixed width for the button */
+  height: 64px; /* Fixed height for the button */
+  background: linear-gradient(to right, rgb(30, 26, 31), rgb(58, 46, 63)); /* Gradient background */
+  display: flex; /* Flex layout to center the content inside */
+  align-items: center; /* Vertically center the button text */
+  justify-content: center; /* Horizontally center the button text */
+  margin-top: 40px; /* Top margin for spacing */
 }
+
+/* Caret (arrow) inside section 2 button with rotation */
 .section2caret {
-  display: inline-block;
-  transform: rotate(90deg);
-  margin-left: 20px;
-  font-size: 24px;
-  line-height: 0;
+  display: inline-block; /* Inline block for caret icon */
+  transform: rotate(90deg); /* Rotate the caret by 90 degrees */
+  margin-left: 20px; /* Adds space between the text and caret */
+  font-size: 24px; /* Set the font size for the caret */
+  line-height: 0; /* Ensures vertical alignment of the caret */
 }
+
+/* Hover effect for the section 2 button */
 .section2btn:hover {
-  /* background: linear-gradient(to left, rgb(30, 26, 31), rgb(58, 46, 63)); */
+  /* background: linear-gradient(to left, rgb(30, 26, 31), rgb(58, 46, 63)); Uncomment for reverse gradient on hover */
+  
+  /* Style for the link inside the button on hover */
   a {
-    text-decoration-line: underline;
+    text-decoration-line: underline; /* Underlines the link on hover */
   }
 }
