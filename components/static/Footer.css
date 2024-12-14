@@ -1,80 +1,111 @@
+/* Main footer container with padding and background gradient */
 .footerContainer {
-  padding-inline: 64px;
-  padding-block: 32px;
-  background: linear-gradient(to bottom, #070109, rgb(55, 17, 66));
+  padding-inline: 64px; /* Horizontal padding */
+  padding-block: 32px; /* Vertical padding */
+  background: linear-gradient(to bottom, #070109, rgb(55, 17, 66)); /* Gradient background */
 }
+
+/* Divider between sections with a specified height and color */
 .divider {
-  width: 100%;
-  height: 2px;
-  background-color: rgb(74, 51, 81);
-  margin-block: 48px;
+  width: 100%; /* Full width */
+  height: 2px; /* Height of the divider */
+  background-color: rgb(74, 51, 81); /* Divider color */
+  margin-block: 48px; /* Margin above and below the divider */
 }
+
+/* Footer footer with flex layout for aligning content */
 .footerFooter {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  display: flex; /* Flex layout */
+  align-items: center; /* Align items vertically */
+  justify-content: space-between; /* Distribute space between items */
 }
+
+/* Footer logo with background color and rounded corners */
 .footerLogo {
-  background-color: #fff;
-  border-radius: 8px;
+  background-color: #fff; /* White background */
+  border-radius: 8px; /* Rounded corners */
 }
+
+/* Social icons section with flex layout and space between items */
 .socialIcons {
-  color: #c2b4d0;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  gap: 64px;
-  cursor: pointer;
+  color: #c2b4d0; /* Default color for social icons */
+  display: flex; /* Flex layout for icons */
+  justify-content: space-around; /* Distribute icons evenly */
+  align-items: center; /* Vertically center the icons */
+  gap: 64px; /* Space between the icons */
+  cursor: pointer; /* Pointer cursor on hover */
 }
+
+/* Hover effect for social icons */
 .socialIcons a:hover {
-  color: rgb(125, 25, 180);
+  color: rgb(125, 25, 180); /* Change color on hover */
 }
+
+/* Centered heading with large font size */
 h3 {
-  text-align: center;
-  font-size: 48px;
-  font-weight: normal;
+  text-align: center; /* Center align the text */
+  font-size: 48px; /* Large font size */
+  font-weight: normal; /* Regular font weight */
 }
+
+/* Bold class for text */
 .bold {
-  font-weight: bold;
+  font-weight: bold; /* Bold text */
 }
+
+/* Free trial button with gradient background, rounded corners, and hover effects */
 .freeTrial {
-  height: 64px;
-  width: 200px;
-  background: linear-gradient(to right, rgb(50, 5, 75), rgb(125, 25, 180));
-  border-radius: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-inline: auto;
-  cursor: pointer;
-  margin-block: 24px;
-  /* font-weight: bold; */
-  font-size: 20px;
+  height: 64px; /* Button height */
+  width: 200px; /* Button width */
+  background: linear-gradient(to right, rgb(50, 5, 75), rgb(125, 25, 180)); /* Gradient background */
+  border-radius: 20px; /* Rounded corners */
+  display: flex; /* Flex layout */
+  justify-content: center; /* Center text inside button */
+  align-items: center; /* Vertically center text */
+  margin-inline: auto; /* Center horizontally */
+  cursor: pointer; /* Pointer cursor on hover */
+  margin-block: 24px; /* Margin above and below the button */
+  font-size: 20px; /* Button text size */
+  /* font-weight: bold; Uncomment if you want bold text */
 }
+
+/* Hover effect for free trial button */
 .freeTrial:hover {
-  background: none;
-  border: 2px solid rgb(125, 25, 180);
+  background: none; /* Remove background on hover */
+  border: 2px solid rgb(125, 25, 180); /* Add border on hover */
 }
+
+/* Main footer section with flex layout */
 .footerMain {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  display: flex; /* Flex layout */
+  justify-content: space-between; /* Distribute space between left and right sections */
+  align-items: center; /* Vertically center items */
 }
+
+/* Text color for normal text in footer */
 .normalText {
-  color: #c2b4d0;
+  color: #c2b4d0; /* Light purple text color */
 }
+
+/* Hover effect for links in normalText */
 .normalText a:hover {
-  text-decoration-line: underline;
+  text-decoration-line: underline; /* Underline links on hover */
 }
+
+/* Left section with 45% width */
 .leftSection {
-  width: 45%;
+  width: 45%; /* Set width to 45% */
 }
+
+/* Heading 2 with large font size */
 h2 {
-  font-size: 48px;
-  font-weight: normal;
+  font-size: 48px; /* Large font size */
+  font-weight: normal; /* Regular font weight */
 }
+
+/* Right section with grid layout for better organization of items */
 .rightSection {
-  width: 45%;
+  width: 45%; /* Set width to 45% */
   display: grid; /* Enable grid layout */
   grid-template-columns: repeat(4, 1fr); /* 4 equal columns */
   gap: 16px; /* Adjust space between grid items */
