@@ -1,138 +1,178 @@
+/* Main header section with a background image */
 .mainHeader {
-  background-image: url(../images/bg-01.jpg);
+  background-image: url(../images/bg-01.jpg); /* Sets the background image */
   background-size: cover; /* Ensures the image covers the entire area */
   background-position: center; /* Centers the image */
   background-repeat: no-repeat; /* Prevents image from repeating */
-  width: 100%; /* Ensures the width is full screen */
-  height: 100vh; /* Ensures the height is full screen (viewport height) */
+  width: 100%; /* Ensures the width spans the entire screen */
+  height: 100vh; /* Ensures the height spans the full viewport height */
 }
+
+/* Container inside the header with padding */
 .headerContainer {
-  padding-inline: 64px;
-  padding-block: 32px;
+  padding-inline: 64px; /* Horizontal padding */
+  padding-block: 32px; /* Vertical padding */
 }
+
+/* Navigation section with flexbox layout */
 nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 72px;
+  display: flex; /* Flex layout for navigation items */
+  align-items: center; /* Align items vertically in the center */
+  justify-content: space-between; /* Distribute items with space between */
+  gap: 72px; /* Space between navigation items */
 }
 
+/* Container for navigation links */
 .linksContainer {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 40px;
+  display: flex; /* Flex layout for link items */
+  align-items: center; /* Vertically center the items */
+  justify-content: space-between; /* Space out the links evenly */
+  gap: 40px; /* Space between links */
 }
 
+/* Styling for each navigation link (div elements) */
 .linksContainer div {
-  display: flex;
-  align-items: center;
-  cursor: pointer;
+  display: flex; /* Flex layout for div items */
+  align-items: center; /* Vertically center the text */
+  cursor: pointer; /* Pointer cursor on hover */
 }
 
+/* Hover effect for links in the links container */
 .linksContainer div:hover {
-  color: rgb(125, 25, 180); /* Optional: Change color on hover */
-  /* font-weight: bold; */
+  color: rgb(125, 25, 180); /* Change text color on hover */
+  /* font-weight: bold; Uncomment for bold text on hover */
 }
 
+/* Caret (dropdown indicator) styling */
 .caret {
-  display: inline-block;
-  transform: rotate(180deg); /* Rotate the caret */
-  margin-left: 8px; /* Adds some space between text and caret */
-  font-size: 20px; /* Adjust this size to match the text */
-  line-height: 0; /* Ensures caret stays centered vertically */
-  vertical-align: middle; /* Vertically align the caret with the text */
-}
-.loginContainer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 40px;
-}
-.loginContainer .trial {
-  height: 64px;
-  width: 200px;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: linear-gradient(to right, rgb(50, 5, 75), rgb(125, 25, 180));
-  border-radius: 20px;
-}
-.login {
-  width: 100px;
-  height: 64px;
-  border: 2px solid transparent;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 20px;
-  cursor: pointer;
-}
-.login:hover {
-  border: 2px solid rgb(125, 25, 180);
-  cursor: pointer;
-}
-.headingAndPopUps {
-  padding-top: 96px;
-  display: flex;
-  align-items: center;
+  display: inline-block; /* Inline block for caret icon */
+  transform: rotate(180deg); /* Rotate the caret by 180 degrees */
+  margin-left: 8px; /* Add space between text and caret */
+  font-size: 20px; /* Set caret size */
+  line-height: 0; /* Vertically align caret with text */
+  vertical-align: middle; /* Align caret in the middle */
 }
 
+/* Container for login-related elements with space between them */
+.loginContainer {
+  display: flex; /* Flex layout for login items */
+  justify-content: space-between; /* Space items evenly */
+  align-items: center; /* Vertically center the items */
+  gap: 40px; /* Space between items */
+}
+
+/* Trial button inside the login container */
+.loginContainer .trial {
+  height: 64px; /* Set height of the button */
+  width: 200px; /* Set width of the button */
+  text-align: center; /* Center text horizontally */
+  display: flex; /* Flex layout for centering the content */
+  justify-content: center; /* Center text horizontally */
+  align-items: center; /* Center text vertically */
+  background: linear-gradient(to right, rgb(50, 5, 75), rgb(125, 25, 180)); /* Gradient background */
+  border-radius: 20px; /* Rounded corners */
+}
+
+/* Styling for login button */
+.login {
+  width: 100px; /* Set width of the login button */
+  height: 64px; /* Set height of the button */
+  border: 2px solid transparent; /* Transparent border by default */
+  display: flex; /* Flex layout for centering content */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  border-radius: 20px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+/* Hover effect for login button */
+.login:hover {
+  border: 2px solid rgb(125, 25, 180); /* Add border on hover */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+/* Section for heading and popups */
+.headingAndPopUps {
+  padding-top: 96px; /* Top padding for spacing */
+  display: flex; /* Flex layout for heading and popups */
+  align-items: center; /* Center items vertically */
+}
+
+/* Heading section with 50% width */
 .heading {
-  width: 50%;
+  width: 50%; /* Set width to 50% */
 }
+
+/* Popups section with 50% width, hidden by default */
 .popups {
-  width: 50%;
-  display: none;
+  width: 50%; /* Set width to 50% */
+  display: none; /* Hide the popups initially */
 }
+
+/* Heading 1 styling */
 h1 {
-  font-size: 72px;
+  font-size: 72px; /* Large font size for the main heading */
 }
+
+/* Gradient text effect for "musical" class */
 .musical {
-  background: linear-gradient(to bottom, rgb(125, 25, 180), rgb(255, 255, 255));
+  background: linear-gradient(to bottom, rgb(125, 25, 180), rgb(255, 255, 255)); /* Gradient from purple to white */
   -webkit-background-clip: text; /* For Webkit browsers like Chrome, Safari */
   background-clip: text; /* For other browsers */
-  color: transparent; /* Makes the text transparent so the gradient is visible */
+  color: transparent; /* Makes the text transparent so the gradient shows */
 }
+
+/* Paragraph text styling */
 p {
-  color: #fff;
-  font-size: 24px;
-  margin-top: 24px;
+  color: #fff; /* White text color */
+  font-size: 24px; /* Font size */
+  margin-top: 24px; /* Top margin */
 }
+
+/* Button styling */
 button {
-  margin-top: 24px;
-  margin-right: 32px;
-  height: 64px;
-  width: 33%;
-  font-family: inherit;
-  color: inherit;
-  background: none;
-  border-radius: 20px;
-  /* font-weight: bold; */
-  font-size: 20px;
-  border: none;
-  cursor: pointer;
+  margin-top: 24px; /* Top margin */
+  margin-right: 32px; /* Right margin */
+  height: 64px; /* Button height */
+  width: 33%; /* Button width */
+  font-family: inherit; /* Inherit font family */
+  color: inherit; /* Inherit text color */
+  background: none; /* No background */
+  border-radius: 20px; /* Rounded corners */
+  /* font-weight: bold; Uncomment for bold text */
+  font-size: 20px; /* Font size */
+  border: none; /* No border */
+  cursor: pointer; /* Pointer cursor on hover */
 }
+
+/* Styling for the first button (gradient background) */
 .btn1 {
-  background: linear-gradient(to right, rgb(50, 5, 75), rgb(125, 25, 180));
+  background: linear-gradient(to right, rgb(50, 5, 75), rgb(125, 25, 180)); /* Gradient background */
 }
+
+/* Styling for the second button (border style) */
 .btn2 {
-  border: 2px solid rgb(125, 25, 180);
+  border: 2px solid rgb(125, 25, 180); /* Border with specific color */
 }
+
+/* Link styling */
 a {
-  text-decoration-line: none;
-  color: inherit;
-  font-family: inherit;
+  text-decoration-line: none; /* Remove underline from links */
+  color: inherit; /* Inherit text color */
+  font-family: inherit; /* Inherit font family */
 }
+
+/* Hover effect for trial and btn1 buttons */
 .trial:hover,
 .btn1:hover {
-  background: none;
-  border: 2px solid rgb(125, 25, 180);
-  cursor: pointer;
+  background: none; /* Remove background */
+  border: 2px solid rgb(125, 25, 180); /* Add border */
+  cursor: pointer; /* Pointer cursor on hover */
 }
+
+/* Hover effect for btn2 button */
 .btn2:hover {
-  border: none;
-  background: linear-gradient(to right, rgb(50, 5, 75), rgb(125, 25, 180));
-  cursor: pointer;
+  border: none; /* Remove border */
+  background: linear-gradient(to right, rgb(50, 5, 75), rgb(125, 25, 180)); /* Gradient background */
+  cursor: pointer; /* Pointer cursor on hover */
 }
